@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelly Chaudhary - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="#home">Shelly Chaudhary</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particle" style="left: 10%; animation-delay: 0s;"></div>
+            <div class="particle" style="left: 20%; animation-delay: 2s;"></div>
+            <div class="particle" style="left: 30%; animation-delay: 4s;"></div>
+            <div class="particle" style="left: 40%; animation-delay: 1s;"></div>
+            <div class="particle" style="left: 50%; animation-delay: 3s;"></div>
+            <div class="particle" style="left: 60%; animation-delay: 5s;"></div>
+            <div class="particle" style="left: 70%; animation-delay: 2s;"></div>
+            <div class="particle" style="left: 80%; animation-delay: 4s;"></div>
+            <div class="particle" style="left: 90%; animation-delay: 1s;"></div>
+            <div class="geometric-shape triangle" style="top: 20%; left: 15%;"></div>
+            <div class="geometric-shape circle" style="top: 60%; left: 80%;"></div>
+            <div class="geometric-shape square" style="top: 30%; left: 70%;"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Shelly Chaudhary</h1>
+                <p class="hero-title">Web Developer | DSA Practitioner | AI Explorer</p>
+                <p class="hero-tagline">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary btn--animated">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn--outline btn--animated">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>BTech 4th Year Computer Science Student</h3>
+                    <p>I'm currently pursuing my Bachelor's degree in Computer Science and Engineering at IMS Engineering College in Ghaziabad. I'm passionate about problem-solving and always eager to learn and become better.</p>
+                    <p>I'm a fast learner and I can quickly learn everything on the go as per requirement. I can take ownership of tasks end to end also can handle pressure in a fast paced work environment.</p>
+                    <p>My journey in technology has led me to explore various domains including web development, artificial intelligence, and data structures & algorithms. I enjoy building innovative solutions that can make a real impact.</p>
+                    <h3>Area of Interests</h3>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-link"></i>
+                            <span>Blockchain</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Generative AI</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="12">0</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-location">
+                    <div class="location-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Based in</h4>
+                        <p>Ghaziabad, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-category="Programming">
+                    <div class="skill-icon">
+                        <i class="fab fa-cuttlefish"></i>
+                    </div>
+                    <h3>C++</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Programming">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="90"></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Frontend">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="95"></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Frontend">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="88"></div>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Backend">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="82"></div>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Backend">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Express</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="80"></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="78"></div>
+                        <span class="skill-percentage">78%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Frontend">
+                    <div class="skill-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Tailwind</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Programming">
+                    <div class="skill-icon">
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <h3>OOPs</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="87"></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Programming">
+                    <div class="skill-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Data Structures & Algorithms</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="83"></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Tools">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git/GitHub</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="90"></div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-category="Database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="75"></div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>AlgoGenie</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Build a web-based AI chatbot designed to assist users with DSA queries. Powered by Google's Gemini AI API, it acts as a smart, quirky DSA instructor — and isn't afraid to roast you if you ask irrelevant questions!</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">Gemini API</span>
+                        <span class="tech-tag">Web Development</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/itzshaily" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Jarvis (AI assistant)</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Built a voice-enabled AI assistant using Python that automates tasks like answering questions, opening applications</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">Voice Recognition</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/itzshaily" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="Full Stack">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Canteen Management System</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                    </div>
+                    <p class="project-description">It is a web app that makes food ordering in canteens or cafeterias easy and efficient. It allows users to browse food items, add them to a cart, and place orders. Admins can track orders, view reports, and manage the system.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/itzshaily" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p>My academic journey</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Computer Science & Engineering</h4>
+                        <p class="institution">IMS Engineering College</p>
+                        <div class="education-meta">
+                            <span class="duration">09/2022 - Present</span>
+                            <span class="grade">80%</span>
+                        </div>
+                        <span class="status-badge current">Currently pursuing 4th year</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>12th Grade</h3>
+                        <p class="institution">L.K International School</p>
+                        <div class="education-meta">
+                            <span class="duration">04/2021 - 04/2022</span>
+                            <span class="grade">85%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>10th Grade</h3>
+                        <p class="institution">L.K International School</p>
+                        <div class="education-meta">
+                            <span class="duration">04/2019 - 04/2020</span>
+                            <span class="grade">79%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certificates & Achievements</h2>
+                <p>Professional certifications and accomplishments</p>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-type="Internship">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="certificate-badge">Internship</div>
+                    </div>
+                    <h3>AI-ML Development</h3>
+                    <p class="certificate-provider">Solveforge Private Limited</p>
+                    <p class="certificate-date">August 14 - September 14, 2023</p>
+                    <p class="certificate-description">Internship program covering Python, Data Analysis, OpenCV Face Detection</p>
+                    <div class="certificate-id">ID: AXTY6864GDDGFDM128936</div>
+                </div>
+                
+                <div class="certificate-card" data-type="Assessment">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="certificate-badge">Assessment</div>
+                    </div>
+                    <h3>CSS (Basic)</h3>
+                    <p class="certificate-provider">HackerRank</p>
+                    <p class="certificate-date">January 11, 2024</p>
+                    <p class="certificate-description">Successfully cleared CSS Basic assessment</p>
+                    <div class="certificate-id">ID: DD1AC34E0788</div>
+                </div>
+                
+                <div class="certificate-card" data-type="Course">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="certificate-badge">Course</div>
+                    </div>
+                    <h3>JavaScript Full Course</h3>
+                    <p class="certificate-provider">GeeksforGeeks</p>
+                    <p class="certificate-date">2025</p>
+                    <p class="certificate-description">8-week comprehensive JavaScript course completion</p>
+                </div>
+                
+                <div class="certificate-card" data-type="Assessment">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="certificate-badge">Assessment</div>
+                    </div>
+                    <h3>Python (Basic)</h3>
+                    <p class="certificate-provider">HackerRank</p>
+                    <p class="certificate-date">December 12, 2023</p>
+                    <p class="certificate-description">Successfully cleared Python Basic assessment</p>
+                    <div class="certificate-id">ID: 620AF06D2C8A</div>
+                </div>
+                
+                <div class="certificate-card" data-type="Internship">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="certificate-badge">Internship</div>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p class="certificate-provider">Bharat Intern</p>
+                    <p class="certificate-date">November 20 - December 20, 2023</p>
+                    <p class="certificate-description">Virtual internship program in Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's work together on something amazing</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>shellytewatia19@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>9267982338</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/shelly-chaudhary-716746289</p>                            
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/itzshaily</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width btn--animated">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Shelly Chaudhary. All rights reserved.</p>
+                    <p class="footer-tagline">Built with ❤️ and lots of code</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/shelly-chaudhary-716746289" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/itzshaily" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:shellytewatia19@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
